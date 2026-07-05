@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI 初创公司合规审查"
+  short_description: "面向 AI 初创公司的分阶段合规风险识别与整改审查流程"
+  default_prompt: "Use $ai-startup-compliance-review to review an AI startup product launch, classify compliance risks, and produce a sourced remediation plan."
+
+policy:
+  allow_implicit_invocation: true

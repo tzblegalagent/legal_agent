@@ -1,0 +1,34 @@
+{
+  "name": "ai-startup-compliance-review",
+  "version": "0.1.0",
+  "description": "AI startup compliance review skill for product launch, data processing, financing diligence, cross-border, and vendor contract risk workflows.",
+  "author": {
+    "name": "legal-agent project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-compliance",
+    "legal",
+    "startup",
+    "risk-review",
+    "data-compliance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Startup Compliance Review",
+    "shortDescription": "Structured compliance review for AI startups.",
+    "longDescription": "Provides a source-tagged workflow for AI startup compliance review across product launch, data processing, financing diligence, cross-border deployment, and AI vendor contract scenarios.",
+    "developerName": "legal-agent project",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review this AI startup launch for compliance risk.",
+      "Assess training data and model IP risk.",
+      "Review this AI vendor contract."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
